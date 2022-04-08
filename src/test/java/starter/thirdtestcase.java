@@ -16,9 +16,9 @@ public class thirdtestcase extends PageObject {
     WebDriver driver;
     @Test
     public void loginfb(){
-        driver.get("https://www.ejemplo.com/");
+        driver.get("https://www.page.com/");
         WebElementFacade username = $(org.openqa.selenium.By.name("email"));
         username.type("correo@gmail.com");
-        $(By.name("pass")).typeAndEnter("s3cr3t");
+        $(By.name("pass")).typeAndEnter("s3cr3tpass");
     }
 }
